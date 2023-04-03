@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: jsquad
-          path: path/to/artifact/
+          path: src
 
   deploy:
     runs-on: windows-latest
