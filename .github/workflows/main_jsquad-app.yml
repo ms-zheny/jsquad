@@ -16,17 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Copy Directory
-        uses: MadaraUchiha/copy-action@0.0.1
-        with:
-          source: /**
-          target: /disc/**
-
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: jsquad
-          path: /disc
+          path: /
 
   deploy:
     runs-on: windows-latest
