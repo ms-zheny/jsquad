@@ -6,7 +6,7 @@ name: Build and deploy Jsquad-App-EUS
 on:
   push:
     branches:
-      - main
+      - eus
   workflow_dispatch:
 
 jobs:
