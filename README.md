@@ -1,2 +1,0 @@
-# jsquad
-Demo Contest
